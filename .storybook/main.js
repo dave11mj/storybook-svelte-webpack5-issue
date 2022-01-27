@@ -8,5 +8,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-svelte-csf"
   ],
-  "framework": "@storybook/svelte"
+  "framework": "@storybook/svelte",
+  core: {
+    builder: "webpack5",
+  },
 }
